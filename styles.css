@@ -1,0 +1,27 @@
+#scroll-container {
+  width: 300px;
+  overflow: hidden;
+}
+
+#content-wrapper {
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+.content {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  text-align: center;
+  vertical-align: top;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300px); /* This should be the total width of one set of your content */
+  }
+}
