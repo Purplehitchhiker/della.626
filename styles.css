@@ -5,7 +5,7 @@
 
 #content-wrapper {
     display: inline;
-    animation: scrolling 30s linear infinite;
+    animation: scrolling 5s linear infinite;
 }
 
 @keyframes scrolling {
