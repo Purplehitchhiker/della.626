@@ -4,8 +4,12 @@
 }
 
 #content-wrapper {
-    display: inline;
-    animation: scrolling 5s linear infinite;
+    display: inline-flex;
+    animation: scrolling 10s linear infinite;
+}
+
+.scrolling-image {
+    max-width: 100%;
 }
 
 @keyframes scrolling {
